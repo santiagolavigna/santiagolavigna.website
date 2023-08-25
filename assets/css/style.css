@@ -1033,6 +1033,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  padding-top: 150px;
+}
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1162,16 +1165,6 @@ section {
   border-bottom: 1px solid grey;
   width: 250px;
   padding-bottom: 25px;
-}
-
-.pl-percentage{
-  padding-left: 39%;
-}
-
-@media (max-width: 768px) {
-  .pl-percentage {
-    padding-left: 22%;
-  }
 }
 
 @keyframes animate-loading {
